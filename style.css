@@ -1,0 +1,13 @@
+/* Jumbotron */
+.jumbotron {
+    background-image: url(Foto/IMG_7629.JPG);
+    background-size: cover;
+    height: 668px;
+    margin-top: -75px;
+    text-align: center;
+}
+
+.jumbotron .display-4 {
+    color: yellow;
+    margin-top: 226px;
+}
