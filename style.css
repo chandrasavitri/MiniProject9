@@ -1,1 +1,16 @@
-
+<style type="text/css">
+#kiri
+{
+width:50%;
+height:100px;
+background-color:#FF0;
+float:left;
+}
+#kanan
+{
+width:50%;
+height:100px;
+background-color:#FF0;
+float:right;
+}
+</style>
