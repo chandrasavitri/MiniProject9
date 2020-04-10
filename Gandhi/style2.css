@@ -1,10 +1,10 @@
-.carousel .display-1{
+.display-1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(241,211,6);
     text-align: center;
     text-shadow: 2px 2px 2px black;
 }
-.carousel .display-2{
+.display-2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(241,211,6);
     text-align: center;
@@ -12,7 +12,7 @@
     bottom: 2%;
 }
 
-.carousel .display-3{
+.display-3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(241,211,6);
     text-align: center;
@@ -63,12 +63,21 @@
 .href{
   color: rgb(241,211,6);
 }
+.half {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+}
 /*Utility*/
 .tombol {
     text-transform : uppercase;
-    border-radius: 40px;
 }
-
+.border-vertical {
+    border-left: 6px solid green;
+    height: 50vh;
+    z-index: 50;
+    margin: auto;
+}
 
 /*Versi Dekstop*/
 @media (min-width: 992px) {
