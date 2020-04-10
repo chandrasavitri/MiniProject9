@@ -1,0 +1,149 @@
+.carousel .display-1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(241,211,6);
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+.carousel .display-2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(241,211,6);
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    bottom: 2%;
+}
+
+.carousel .display-3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(241,211,6);
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FEDE00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+.carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FEDE00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+
+.row    .display-4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(241,211,6);
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    margin-top: -6%;
+}
+.carousel-inner {
+    margin-top: 5%;
+}
+.no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+.no-margin {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+.btn-default {
+  background-color: #FEDE00;
+  color:#000;
+  font-weight: bold;
+  border-color: #FEDE00;
+   
+  }
+.border-default{
+  margin-left: 20%;
+  margin-right: 20%;
+  border:1px solid rgb(241,211,6);
+}
+.href{
+  color: rgb(241,211,6);
+}
+/*Utility*/
+.tombol {
+    text-transform : uppercase;
+    border-radius: 40px;
+}
+
+
+/*Versi Dekstop*/
+@media (min-width: 992px) {
+    .navbar{
+        background-color: black;
+        z-index: 20;
+    }
+    
+    .navbar-brand, .nav-link {
+        color:rgb(241,211,6) !important;
+    }
+    .navbar-brand {
+        opacity: 100%;
+        font-family: Viga;
+        font-size:32px; ;
+    }
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 10px;
+    }
+    .bg-dark{
+        background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+        background-color: transparent !important;
+    }
+    .carousel .display-1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:rgb(241,211,6);
+        text-align: center;
+        font-size:47px ;
+        text-shadow: 2px 2px 2px black;
+        letter-spacing: 0.15em;
+        bottom: 25%;
+    }
+    .carousel .display-1{
+        bottom: 25%;
+    }
+    .carousel-inner {
+        margin-top: 0%;
+    }
+    .caption {
+        width: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:rgb(241,211,6);
+        text-align: center;
+        text-shadow: 2px 2px 2px black;
+        position: absolute;
+        margin-top: 10%;
+    }
+}
+/*Map*/
+.wrap-element {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    }
+
+.wrapped-iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    height: 10%;
+    }
+
+/*Line*/
+.hr .new1 {
+    border: 4px soli rgb(241,211,6);
+  }
+  
+
+/*Versi Mobile*/
+@media (min-width: 576px) {
+    #carouselExampleIndicators {
+        margin-top: 10px !;
+    }
+}
