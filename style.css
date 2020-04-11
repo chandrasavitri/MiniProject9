@@ -1,54 +1,40 @@
-/* Story satu */
-
-
-.storysatu {
-    margin-top: 100px;
+/* Jumbotron */
+.jumbotron {
+    background-image: url(Foto/IMG_7629.JPG);
+    background-size: cover;
+    height: 768px;
+    margin-top: -75px;
 }
 
-
-.storysatu p {
-    font-family: Verdana;
-    font-size: 19px;
-    font-weight: 200px;
-    margin-left: 70px;
-    margin-top: 17px;
-    color: #F1D306;
-
+.jumbotron .display-4 {
+    color: yellow;
+    /* margin top jarak dari navbar ke button shop now */
+    margin-top: 226px;
+    text-align: center;
 }
 
-/* Story dua */
-.storydua {
-    margin-top: 130px;
-    margin-left:-200px;
+.bg-image {
+    /* Full height */
+    height: 50%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    /* Images used */
+    .img1 { background-image: url(Foto/statue-2736581_1920.jpg) }
+    .img2 { background: black }
+
+.jumbotron .dropdown {
+    text-align: left;
+}    
+
+.card-header {
+    text-align: left;
 }
 
-.storydua h3 {
-    font-family: Verdana;
-    font-size: 25px;
-    font-weight: 500;
-    margin-top: 100px;
-    margin-left: 280px;
-    margin-right:0px;
-    color: #F1D306;
-}
-
-.storydua h3 span{
-    font-weight: 600;
-}
-
-
-.storydua2 h3 {
-
-    font-family: Verdana;
-    font-size: 25px;
-    font-weight: 200px;
-    margin-top: 150px;
-    margin-left: 0px;
-    margin-right: 70px;
-    color: #F1D306;
-
-}
-
-.storydua2 h3 span{
-    font-weight: 600;
-}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
