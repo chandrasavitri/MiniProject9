@@ -96,10 +96,57 @@
     z-index: 50;
     margin: auto;
 }
-.u {
-    margin-top: 10vh;
+.custom-btn{
+    text-transform : uppercase;
+    padding-left: 0!important;
+    color: #9A9DA0;
 }
 
+/*Sidenav coy*/
+.sidenav {
+    height: 100%;
+    width:0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20%;
+    font-weight: bolder;
+    z-index: 1040;
+  }
+  
+  .sidenav a {
+    margin-left: 20%;
+    text-decoration: none;
+    font-size: 4vmin;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #fede00;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 2vmin;
+    font-size: 5vmin;
+    margin-left: 4vmin;
+  }
+  .dark.bg{
+    background-color: black;
+    }
+  
+  
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 30%;}
+    .sidenav a {font-size: 4vmin;}
+}
 /*Versi Dekstop*/
 @media (min-width: 992px) {
     .navbar{
@@ -147,7 +194,11 @@
         position: absolute;
         margin-top: 10%;
     }
-}
+    .custom-btn{
+        text-transform : uppercase;
+        padding-left: 0!important;
+        color: #FEDE00 !important;
+    }
 /*Map*/
 .wrap-element {
     position: relative;
@@ -170,10 +221,10 @@
     border: 4px soli rgb(241,211,6);
   }
   
-
+}
 /*Versi Mobile*/
 @media (min-width: 576px) {
     #carouselExampleIndicators {
-        margin-top: 10px !;
+        margin-top: 10px !important;
     }
 }
